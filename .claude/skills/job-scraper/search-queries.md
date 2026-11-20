@@ -12,108 +12,117 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by the community `linkedin-search` CLI once installed
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary:
+- **linkedin.com/jobs** - main board (Easy Apply first); filter: Los Angeles, CA (50 mi) and United States (Remote); also covered by the community `linkedin-search` CLI once installed
+- **indeed.com** - broad US board
+- **builtinla.com** - LA tech and data roles
+- **glassdoor.com** - additional US listings (optional)
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for target companies (greenhouse.io, lever.co, myworkdayjobs.com)
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Candidate works in English only. Combine each query with "Los Angeles" or "Remote".
 
-Each priority has two kinds of block. **Plain terms** blocks are what the portal CLIs consume: one term per line, one CLI call per term, no `OR`, no `site:` prefix, and no location (the CLI's location flag, or the city in `--query` where that portal's SKILL.md says so, carries it). Quote a multi-word phrase only if the portal's `Query syntax:` line says quoting is honoured. **WebSearch-only** blocks are Google syntax (`site:`, quotes, `OR`) for the fallback path and are never passed to a CLI.
+Each priority has two kinds of block. **Plain terms** blocks are what the portal CLIs consume: one term per line, one CLI call per term, no `OR`, no `site:` prefix, and no location. **WebSearch-only** blocks are Google syntax for the fallback path and are never passed to a CLI.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
+### Priority 1: Data & BI Analysis (core function)
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+Turning sales, inventory and operations data into dashboards, reports and decisions.
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_PRIMARY_JOB_TITLE_1]
-[YOUR_PRIMARY_JOB_TITLE_2]
-[YOUR_KEY_SKILL]
+Data Analyst
+Business Intelligence Analyst
+BI Analyst
+Power BI Analyst
+Reporting Analyst
+Business Analyst
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "Data Analyst" "Los Angeles"
+site:linkedin.com/jobs "Business Intelligence Analyst" Remote "United States"
+site:boards.greenhouse.io "Data Analyst" (Remote OR "Los Angeles")
+site:jobs.lever.co "Business Analyst" (Remote OR "Los Angeles")
+site:builtinla.com "Data Analyst"
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+### Priority 2: E-commerce, Pricing & Marketplace Analytics (domain strength)
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_DOMAIN_KEYWORD_1]
-[YOUR_DOMAIN_KEYWORD_2]
+E-commerce Analyst
+Pricing Analyst
+Marketplace Analyst
+Inventory Analyst
+Revenue Analyst
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "E-commerce Analyst" "Los Angeles"
+site:linkedin.com/jobs "Pricing Analyst" (Remote OR "Los Angeles")
+site:boards.greenhouse.io "Marketplace Analyst" Remote
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+### Priority 3: Adjacent - Analytics Engineering, Finance & Operations Analysis
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_ADJACENT_TITLE_1]
-[YOUR_ADJACENT_TITLE_2]
+Analytics Engineer
+Associate BI Engineer
+Financial Data Analyst
+Operations Analyst
+Product Analyst
+Strategy Analyst
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "Analytics Engineer" (dbt OR Snowflake) Remote
+site:linkedin.com/jobs "Financial Data Analyst" "Los Angeles"
+site:boards.greenhouse.io "Operations Analyst" SQL Remote
 ```
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+### Priority 4: Broader net - construction & industry data roles
 
 #### Plain terms (portal CLIs)
 
 ```
-[YOUR_KEY_SKILL] developer
-technical consultant
+Project Controls Analyst
+Construction Data Analyst
+Cost Analyst
 ```
 
 #### WebSearch-only (`site:` fallback)
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Construction Data Analyst" (Remote OR "Los Angeles")
+site:linkedin.com/jobs "Project Controls Analyst" "Power BI"
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Home base: Los Angeles, CA.
+- Los Angeles and surrounding areas (ideal) - hybrid or on-site fine
+- Orange County, Long Beach, Pasadena, Burbank, Irvine, Pomona (acceptable, within ~50 miles)
+- US Remote (acceptable)
+- Inland Empire / Riverside, Ventura (borderline, ~60+ miles)
+- Outside Southern California, on-site (relocation - flag for the user to decide per role)
+
+## Eligibility & Experience Filter
+- Skip postings that say "no sponsorship", "must be a US citizen", "green card holders only", "W2 only, no visa", or require a security clearance.
+- Rank first: postings where the company sponsors visas.
+- Skip roles requiring 6+ years or titled Senior / Lead / Manager / Principal.
 
 ## Language Filter
 

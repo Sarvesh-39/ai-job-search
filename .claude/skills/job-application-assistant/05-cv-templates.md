@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Sarvesh Sankpal - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Sarvesh}{Sankpal}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Los Angeles, CA}{}{}
+\phone[mobile]{(562) 393-9666}
+\email{sankpalsarvesh.usa@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/sarvesh-sankpal/}{linkedin.com/in/sarvesh-sankpal}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Data Analyst / BI Analyst roles:**
+> Data Analyst / Business Intelligence specialist with 4+ years of experience turning sales, inventory and operations data into business decisions across e-commerce, ride-sharing, pharma and nonprofit teams. Builds SQL and Python data pipelines and Power BI and Tableau dashboards that replace manual reporting, from automated Amazon settlement reports to cross-channel inventory monitoring. Experienced with Snowflake, dbt and AWS/Azure data platforms. MS in Management Information Systems (CSULB).
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Business Analyst / Pricing / E-commerce Analyst roles:**
+> Business Analyst with 4+ years of experience in pricing, marketplace and operations analytics. Currently owns Amazon and Shopify reporting, ERP-to-e-commerce data sync, cost-plus pricing models and competitor price intelligence at a fine-jewelry company. Translates business questions into KPIs, requirements and models, and delivers them in SQL, Python, Power BI and Tableau. MS in Management Information Systems (CSULB).
+
+**For Analytics Engineering / Data Engineering-leaning roles:**
+> Data analyst with hands-on pipeline experience: Snowflake (Snowpipe, Snowpark), dbt, Airflow, AWS Glue/Redshift and Azure Data Factory/Databricks. Combined trip and feedback data in Snowflake at Uber to cut analysis turnaround by 25%, built AWS Glue-to-Redshift ETL at Larta Institute, and models clean, reliable data for Power BI reporting. MS in Management Information Systems (CSULB).
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

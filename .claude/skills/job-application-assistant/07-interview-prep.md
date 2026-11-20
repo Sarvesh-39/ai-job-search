@@ -14,44 +14,54 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Amazon settlement report automation (automation, Python)
+**S:** At Ishaan International, finance cleaned Amazon Seller Central settlement exports by hand every week to see payouts and refunds.
+**T:** Give finance a consistent weekly view without the manual cleanup.
+**A:** Wrote a Python (Pandas) script that parses the tab-separated settlement exports, filters principal and tax lines for merchant-fulfilled orders, and outputs a formatted weekly report.
+**R:** Manual cleanup replaced by a repeatable report; finance now gets the same consistent view of payouts and refunds every week.
+**Use for:** "Tell me about a process you automated", "How do you handle repetitive work?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Jewelry pricing model (business analysis, pricing)
+**S:** Pricing stud-earring SKUs meant combining setting, diamond and mounting costs by hand for each variant.
+**T:** Make pricing fast and consistent across 30 SKUs (15 settings in 14K yellow and white gold).
+**A:** Built a cost-plus pricing model combining component costs with carat-weight tiers and rounded retail price points, plus a lookup-driven calculator.
+**R:** Any SKU can now be priced instantly; paired with a Python/Claude competitor-price dataset to compare against market value.
+**Use for:** "Tell me about a model you built for the business", "How do you support pricing decisions?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. ERP-to-marketplace data sync (SQL, data quality)
+**S:** Product, inventory and order data didn't match across the ERP, Shopify, Amazon and ShipHero, causing listing and stock mismatches.
+**T:** Make listings, stock and orders line up across every channel.
+**A:** Wrote SQL to map data between the systems and standardized parent/child SKU naming by metal, carat and size; built Power BI dashboards that flag price mismatches, out-of-stock variants and listing errors.
+**R:** Listings, stock and orders now match across channels, and problems are flagged before they cost sales.
+**Use for:** "Describe a data quality problem you solved", "How do you work with messy data from many systems?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. Uber trip and feedback data unification (Snowflake, impact)
+**S:** As a Data Analyst Intern at Uber, rider feedback, trip metrics and external API data sat in separate places, slowing surge-pricing and route analysis.
+**T:** Bring the data together so analysts could answer these questions faster.
+**A:** Combined the sources in Snowflake and standardized/de-duplicated trip records ahead of ETA and demand forecasts.
+**R:** Cut analysis turnaround for surge-pricing and route questions by 25% and gave planners one consistent dataset.
+**Use for:** "Tell me about your biggest impact", "Describe working with large datasets"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 5. Cloud ETL at Larta Institute (AWS, collaboration)
+**S:** Program data lived in scattered files, and batch ETL runs were slow.
+**T:** Create one queryable source and speed up the pipeline.
+**A:** Built AWS Glue jobs loading data into Redshift and worked with engineering on AWS Lambda and CloudTrail logging.
+**R:** One queryable source replaced scattered files; each ETL run became 5-10 minutes faster.
+**Use for:** "Tell me about working with engineers", "Describe a pipeline you built"
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why are you looking to leave Ishaan International?"
+> I've built the core reporting, pricing and data-sync work there and want a larger data team and more complex problems where I can keep growing as an analyst.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge the gap honestly, bridge to the closest experience (e.g. Power BI/Tableau for another BI tool, Snowflake/AWS/Azure for another platform), and point to how quickly he picked up Snowflake, AWS, Azure and Claude.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Growing into a senior data/BI analyst or analytics-engineering role, owning a business area's data end to end.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Tends to prefer working independently; mitigates it by sharing work early and documenting scripts and dashboards so others can use and maintain them.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

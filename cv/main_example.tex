@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Sarvesh Sankpal
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -40,7 +40,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Sarvesh Sankpal - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -50,13 +50,11 @@
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-% If you have no address to list, DELETE this whole line. \address{}{}{} fails
-% with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Sarvesh}{Sankpal}
+\address{Los Angeles, CA}{}{}
+\phone[mobile]{(562) 393-9666}
+\email{sankpalsarvesh.usa@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/sarvesh-sankpal/}{linkedin.com/in/sarvesh-sankpal}}
 
 \begin{document}
 
@@ -67,7 +65,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Data Analyst / Business Intelligence specialist with 4+ years of experience turning sales, inventory and operations data into business decisions across e-commerce, ride-sharing, pharma and nonprofit teams. Builds SQL and Python data pipelines and Power BI and Tableau dashboards that replace manual reporting, from automated Amazon settlement reports to cross-channel inventory monitoring. Experienced with Snowflake, dbt and AWS/Azure data platforms. MS in Management Information Systems.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -76,17 +74,11 @@
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Languages \& querying}: SQL, Python (Pandas, NumPy, SciPy, scikit-learn), R, VBA; generative AI (Claude) for scripting and report automation
+\item \textbf{BI \& reporting}: Power BI (Power Query, DAX), Tableau, Excel (Power Query, PivotTables, INDEX/MATCH), QlikView
+\item \textbf{Data platforms \& ETL}: Snowflake (Snowpipe, Snowpark), dbt, Airflow, AWS (Glue, Redshift, Lambda, S3), Azure (Data Factory, Databricks)
+\item \textbf{E-commerce \& business systems}: Amazon Seller Central, Shopify, ShipHero, ERP integration
+\item \textbf{Business analysis}: KPI design, market and competitor analysis, pricing models, A/B testing, forecasting, data reconciliation, requirements gathering
 \end{itemize}
 
 % ============================================================
@@ -97,32 +89,37 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{May 2025--Present}{Data Analyst / Business Intelligence Specialist}{Ishaan International Inc.}{Los Angeles, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Automated weekly Amazon Seller Central settlement reporting in Python (Pandas), replacing manual cleanup and giving finance a consistent view of payouts and refunds.}
+    \item {Built a cost-plus pricing model for 30 stud-earring SKUs with carat-weight tiers and rounded retail price points; a lookup-driven calculator now prices any SKU instantly.}
+    \item {Map product, inventory and order data between the ERP, Shopify, Amazon and ShipHero in SQL, standardizing parent/child SKU naming so listings, stock and orders match across channels.}
+    \item {Built Power BI dashboards (Power Query, DAX) with scheduled refresh flagging price mismatches, out-of-stock variants and listing errors; publish Tableau dashboards on sales, margin and channel mix.}
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jan 2025--Apr 2025}{Data Analyst Intern}{Uber}{California}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Combined rider feedback, trip metrics and external API data in Snowflake, cutting analysis turnaround for surge-pricing and route questions by 25\%.}
+    \item {Built ride-cancellation risk models validated through A/B tests on historical Snowflake data, informing driver-allocation rules.}
+    \item {Designed QlikView dashboards with operations teams in 3 metro areas, aligning regional fleet KPIs.}
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jul 2024--Jan 2025}{Data Analyst / Project Management Intern}{Larta Institute}{California}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item {Built AWS Glue jobs loading program data into Redshift, replacing scattered files with one queryable source.}
+    \item {Optimized batch ETL with AWS Lambda and CloudTrail logging, cutting each run by 5--10 minutes.}
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jan 2021--Jul 2022}{Data Analyst}{Cipla}{India}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Cleaned and normalized pharma sales and operations data in Python (Pandas, NumPy), producing report-ready datasets.}
+    \item {Automated data extraction and reporting workflows in Python and ran governance audits before monthly reporting.}
 \end{itemize}}}
 
 \end{itemize}
@@ -134,17 +131,13 @@
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2022--2024}{MS in Management Information Systems}{California State University, Long Beach}{Long Beach, CA}{}{\vspace{1pt}
+GPA 3.65 / 4.00
 }}
-
 \vspace{3pt}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2017--2021}{BE in Computer Science}{Shivaji University}{Kolhapur, India}{}{\vspace{1pt}
+GPA 3.20 / 4.00
 }}
-
 \end{itemize}
 
 % ============================================================
@@ -154,27 +147,17 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
+\item {English (fluent).}
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item {Snowflake: The Complete Masterclass; Microsoft SQL Server Data Administration; Data Analysis (SQL, Tableau, Power BI, Excel); Data Analysis Using Python; AWS Machine Learning Foundations; IBM Enterprise Design Thinking; IBM Team Essentials for AI.}
 \end{itemize}
 
 % ============================================================

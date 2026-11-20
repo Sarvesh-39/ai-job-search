@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** SQL, Python (Pandas, NumPy), Power BI (Power Query, DAX), Tableau, Excel, data reconciliation, KPI dashboards, e-commerce/marketplace analytics (Amazon Seller Central, Shopify), pricing models
+**Moderate match areas:** Snowflake (Snowpipe, Snowpark), dbt, Airflow, AWS (Glue, Redshift, Lambda, S3), Azure (Data Factory, Databricks), R, VBA, QlikView, A/B testing, forecasting, predictive modeling (scikit-learn), requirements gathering, JIRA/Confluence/MS Project
+**Weak match areas:** Salesforce, SAP, Oracle, Workday, HubSpot, .NET/Java/C#, Looker, Procore, Primavera P6, earned value management, SharePoint, clinical/healthcare domain, people management
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Data Analyst, BI Analyst, Business Analyst, Power BI/Tableau reporting, e-commerce/marketplace/pricing/inventory analytics, sales and operations analytics
+**Moderate:** Analytics engineering (dbt/Snowflake), data engineering (AWS/Azure ETL), financial/revenue data analysis, product/strategy/operations analyst, project controls and construction data (transferable reporting skills)
+**Entry-level:** Data scientist, senior/lead roles, roles needing 6+ years, CRM/ERP administrator roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -93,7 +93,13 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: FLAG (open to relocation for strong fits - confirm with user)
+
+**Hard deal-breakers (auto-skip):**
+- Posting says "no sponsorship", "must be a US citizen", "green card holders only", "W2 only, no visa"
+- Security clearance required
+- Requires 6+ years, or titles with Senior / Lead / Manager / Principal
+- Clinical roles needing a license/BLS; non-data roles (sales, recruiting, pure software engineering)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +113,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow as a Data / BI / Business Analyst in e-commerce, retail, consumer brands, marketplaces, pricing, inventory, finance or operations analytics
+- Work with modern data stacks (Snowflake, dbt, cloud) toward analytics-engineering skills
+- Secure a US role with an employer that sponsors visas
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Automating manual reporting, building pricing and business models, untangling messy multi-system data, building dashboards people actually use
+- Tasks that drain: Pure data entry, sales/recruiting work, roles with little hands-on analysis
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed; target about $80,000-$90,000 base (enter a figure only when a form requires one)
+- **Flexibility**: 2 weeks notice; LA hybrid/on-site or US remote preferred; relocation considered per role
+- **Professional development**: Cloud data platforms, analytics engineering, deeper BI and pricing analytics
 
 ### 6. Salary Benchmark (Optional)
 

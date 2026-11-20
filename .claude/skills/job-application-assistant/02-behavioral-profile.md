@@ -4,51 +4,48 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+*[Self-assessment from /setup plus patterns visible in the CV - no formal assessment (PI/DISC/etc.) taken yet. Review before relying on this.]*
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Sarvesh describes himself as an **independent problem-solver**: he takes a messy business problem, owns it end to end, and turns it into an automated, repeatable solution (script, model or dashboard).
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Ownership / autonomy | High | Prefers to own a problem from raw data to finished output |
+| Automation mindset | High | Replaces manual, repetitive work with scripts and scheduled reports |
+| Accuracy / data quality | Medium-high | Reconciliation, de-duplication, audits show up in every role |
+| Pace / adaptability | Medium-high | Picks up new platforms (Snowflake, AWS, Azure, Claude) quickly |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **End-to-end ownership:** built settlement reporting, pricing model and ERP-to-channel sync at Ishaan largely on his own.
+- **Automating the manual:** recurring reports, invoice reconciliation and listing work automated in Python/SQL and with Claude.
+- **Making data consistent:** standardizing SKUs, de-duplicating records and auditing data before it reaches a dashboard.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Clear business problem with room to choose the approach
+- Direct access to the data and the stakeholders who use the output
+- Small-to-mid-size teams where one analyst's work is visible and used
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Large-team / formal process environments:** frame as "comfortable working independently, and documents work so others can pick it up."
+- **Domain ramp-up in new industries (e.g. construction, healthcare):** frame as "fast learner of new domains, proven across pharma, ride-sharing, nonprofit and e-commerce."
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+Strong behavioral fit:
+- "self-starter", "ownership", "end-to-end", "automate", "build from scratch", "wear many hats", "fast-paced"
 
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+Potential friction (not a deal-breaker):
+- Heavy client-facing or sales-quota work; roles that are mostly meetings and little hands-on analysis
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works well with managers who set goals and give autonomy on the how
+- Less suited to heavy micromanagement
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** lead with a problem he owned and automated (settlement report, pricing model, ERP sync)
+- **CV:** emphasize outcomes and automation; name the tools (SQL, Python, Power BI, Tableau, Snowflake)
+- **Interviews:** use the Ishaan automation and Uber data-unification STAR examples
+- **Don't overstate:** no people-management experience; no Procore, Primavera, Salesforce, SAP, HubSpot or .NET experience

@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Sarvesh Sankpal
 
 <!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Sarvesh Sankpal, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +15,70 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Sarvesh Sankpal
+- **Location:** Los Angeles, CA, USA (LA area within ~50 miles, hybrid/on-site OK; US remote OK; relocation considered per role)
+- **Contact:** sankpalsarvesh.usa@gmail.com | (562) 393-9666 | https://www.linkedin.com/in/sarvesh-sankpal/
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Fluent (professional working proficiency) |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed - Data Analyst / Business Intelligence Specialist at Ishaan International Inc. since May 2025; 2 weeks notice
+- **Work authorization:** Authorized to work in the US; requires visa sponsorship now or in the future
+- **LinkedIn headline:** "Data Analyst / Business Analyst | SQL · Python · Power BI · Tableau | E-commerce, Pricing & Inventory Analytics | Snowflake · dbt · AWS · Azure | Open to Data & BI Roles"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MS in Management Information Systems** (2022-2024) - California State University, Long Beach (GPA 3.65/4.00)
+- **BE in Computer Science** (2017-2021) - Shivaji University, Kolhapur, India (GPA 3.20/4.00)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Data Analyst / Business Intelligence Specialist** (May 2025 - Present) - **Ishaan International Inc.** (Los Angeles, CA)
+  - Automated Amazon Seller Central settlement reporting in Python; cost-plus pricing model for 30 SKUs; competitor price intelligence with Python + Claude
+  - SQL data sync across ERP, Shopify, Amazon and ShipHero; Power BI and Tableau dashboards for inventory, listings, sales, margin and channel mix
+- **Data Analyst Intern** (Jan 2025 - Apr 2025) - **Uber** (California)
+  - Unified trip/feedback/API data in Snowflake, cutting analysis turnaround by 25%; cancellation-risk models validated with A/B tests; QlikView ops dashboards for 3 metros
+- **Data Analyst / Project Management Intern** (Jul 2024 - Jan 2025) - **Larta Institute** (Los Angeles, CA)
+  - AWS Glue to Redshift ETL; Lambda/CloudTrail optimization cutting 5-10 min per run; program impact analysis in Python
+- **Data Analyst** (Jan 2021 - Jul 2022) - **Cipla** (India)
+  - Pharma sales/ops data cleaning and reporting automation in Python; governance audits; demand-trend analysis
+- **Data Analyst Intern** (Jun 2020 - Dec 2020) - **Cipla** (Kolhapur, India)
+  - Sales/clinical data cleanup in Excel and SQL; Power BI dashboards on distribution and regional sales
+
+Full details: `.claude/skills/job-application-assistant/01-candidate-profile.md`
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** SQL, Python (Pandas, NumPy, SciPy, scikit-learn), Power BI (Power Query, DAX), Tableau, Excel
+- **Secondary:** R, VBA, QlikView, Snowflake (Snowpipe, Snowpark), dbt, Airflow, AWS (Glue, Redshift, Lambda, S3), Azure (Data Factory, Databricks)
+- **Domain:** E-commerce/marketplace analytics (Amazon Seller Central, Shopify, ShipHero, ERP integration), pricing models, inventory and sales analytics, KPI design, A/B testing, forecasting, data reconciliation, requirements gathering
+- **Software:** JIRA, Confluence, Trello, MS Project; generative AI (Claude)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Snowflake: The Complete Masterclass; Microsoft SQL Server Data Administration; Data Analysis (SQL, Tableau, Power BI, Excel); Data Analysis Using Python; AWS Machine Learning Foundations; IBM Enterprise Design Thinking; IBM Team Essentials for AI
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Independent problem-solver** - owns a business problem end to end and turns it into an automated, repeatable solution
+- **Automation mindset** - replaces manual reporting with Python/SQL scripts and scheduled dashboards
+- **Strengths:** ownership, automation, data quality and reconciliation, fast tool adoption
+- **Growth areas:** large formal teams (mitigated by documenting and sharing work early); no people-management experience
+- **Thrives in:** clear business problems with autonomy on the approach, close to the data and its users
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Automating manual reporting and building pricing/business models
+- Untangling messy multi-system data into dashboards people actually use
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- E-commerce, retail and consumer brands; marketplaces; pricing and inventory analytics
+- Finance and operations analytics; construction/industry data roles (secondary)
+- Target titles: Data Analyst, Business Analyst, BI Analyst, Associate BI Engineer, Financial Data Analyst, E-commerce/Pricing/Marketplace Analyst, Product or Strategy Analyst, Power BI Analyst
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Postings that say "no sponsorship", "must be a US citizen", "green card holders only", "W2 only, no visa"; security clearance roles
+- Roles requiring 6+ years or titled Senior / Lead / Manager / Principal
+- Clinical roles needing a license/BLS; non-data roles (sales, recruiting, pure software engineering)
+
+### Salary
+- Target about $80,000-$90,000 base; leave blank when optional
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
